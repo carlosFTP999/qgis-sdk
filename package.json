@@ -6,6 +6,10 @@
   "private": true,
   "license": "Apache-2.0",
   "author": "carlosftp999",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosFTP999/qgis-sdk.git"
+  },
   "keywords": [
     "qgis",
     "qgis3",

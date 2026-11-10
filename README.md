@@ -8,7 +8,7 @@ point, with version-specific references, templates, and validators split into
 ## Install with skills.sh
 
 ```bash
-npx skills add carlosftp999/opencode-qgis-sdk
+npx skills add carlosftp999/qgis-sdk
 ```
 
 The [skills.sh CLI](https://www.skills.sh/docs/cli) discovers the root
