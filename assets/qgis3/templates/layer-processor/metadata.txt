@@ -1,0 +1,17 @@
+[general]
+name={{PLUGIN_TITLE}}
+qgisMinimumVersion=3.16
+description={{PLUGIN_DESCRIPTION}}
+about={{PLUGIN_TITLE}} derives a centroid layer from the active vector layer.
+version=0.1.0
+author={{AUTHOR}}
+email={{EMAIL}}
+category=Vector
+icon=icon.png
+repository=https://example.com/{{PLUGIN_NAME}}
+tracker=https://example.com/{{PLUGIN_NAME}}/issues
+homepage=https://example.com/{{PLUGIN_NAME}}
+experimental=False
+deprecated=False
+server=False
+tags=vector,centroid

@@ -1,0 +1,12 @@
+[general]
+name={{PLUGIN_TITLE}}
+qgisMinimumVersion=4.0
+description={{PLUGIN_DESCRIPTION}}
+version=0.1.0
+author={{AUTHOR}}
+email={{EMAIL}}
+about={{PLUGIN_DESCRIPTION}}
+repository=https://example.com/{{PLUGIN_NAME}}
+tracker=https://example.com/{{PLUGIN_NAME}}/issues
+icon=icon.png
+hasProcessingProvider=yes

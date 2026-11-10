@@ -1,0 +1,40 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  static:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install tools
+        run: python -m pip install pytest ruff
+      - name: Lint
+        run: ruff check .
+      - name: Test without QGIS
+        run: pytest -q
+
+  qgis:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        qgis:
+          - release-3_28
+          - release-3_40
+    container: qgis/qgis:${{ matrix.qgis }}
+    env:
+      QT_QPA_PLATFORM: offscreen
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install test runner
+        run: python3 -m pip install pytest
+      - name: Verify QGIS runtime
+        run: python3 -c "from qgis.core import Qgis; print(Qgis.QGIS_VERSION)"
+      - name: Test with QGIS
+        run: pytest -q

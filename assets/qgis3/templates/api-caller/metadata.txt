@@ -1,0 +1,17 @@
+[general]
+name={{PLUGIN_TITLE}}
+qgisMinimumVersion=3.16
+description={{PLUGIN_DESCRIPTION}}
+about={{PLUGIN_TITLE}} fetches JSON from an HTTP endpoint in a background task.
+version=0.1.0
+author={{AUTHOR}}
+email={{EMAIL}}
+category=Web
+icon=icon.png
+repository=https://example.com/{{PLUGIN_NAME}}
+tracker=https://example.com/{{PLUGIN_NAME}}/issues
+homepage=https://example.com/{{PLUGIN_NAME}}
+experimental=False
+deprecated=False
+server=False
+tags=http,json

@@ -1,0 +1,6 @@
+# The plugin must live in a source code repository that supports releases.
+# `qgis-plugin-ci release` uploads to an existing GitHub release for the tag;
+# it does not create the release.
+plugin_path: my_plugin
+github_organization_slug: my-organization
+project_slug: my-qgis-plugin

@@ -1,0 +1,17 @@
+{
+  "name": "qgis-sdk",
+  "version": "1.0.0",
+  "description": "Unified QGIS 3 and QGIS 4 agent skill for PyQGIS plugin development, validation, packaging, and migration.",
+  "type": "module",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "carlosftp999",
+  "keywords": [
+    "qgis",
+    "qgis3",
+    "qgis4",
+    "pyqgis",
+    "qt",
+    "skills-sh"
+  ]
+}

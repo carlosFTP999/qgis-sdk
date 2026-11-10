@@ -1,0 +1,13 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "QGIS",
+      "description": "Build, validate, package, and migrate QGIS 3 and QGIS 4 plugins with PyQGIS.",
+      "skills": [
+        "qgis-sdk"
+      ]
+    }
+  ]
+}
